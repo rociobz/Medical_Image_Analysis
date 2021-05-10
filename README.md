@@ -6,6 +6,7 @@ In those images, most of the bright voxels within the lung parenchyma represent 
 
 
 *Figure 1. Example 2D slice image of the chest CT scan with lung outlined in green. Current viewing window settings: level=-600HU and width=1000HU.*
+
 **Tasks:** 
 1. For each image, segment the lung in the image (excluding bowels, trachea and other dark regions outside the lung) and compute the lung area in mm². 
 2. For each image, segment the main vessels voxels with values higher than -500 HU and compute the relative vessels over lung area in % (vessel-lung area ratio).
